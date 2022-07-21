@@ -1,0 +1,84 @@
+/* body */
+ body{
+    font-family: 'Gantari', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+ 
+
+ 
+
+}
+/* header */
+.main-header{
+ background-color: #161616;
+ display: flex;
+ margin-top: 40px;
+ margin-left: 140px;
+ margin-right: 139px;
+ height: 666px;
+width: 1321px;
+border-radius: 30px;
+ 
+
+
+
+}
+/* article */
+.article{
+  width: 531px;
+ height: 424px;
+margin-top: 70px;
+margin-left: 106px;
+margin-bottom: 111px;
+
+
+
+}
+.article h1{
+ font-size: 75px;
+ font-weight: 900;
+ color: #FFFFFF
+ ;
+ 
+}
+.article p{
+    margin-top: -20px;
+    font-size: 16px;
+    color: #FFFFFF
+    ;
+    margin-bottom: 60px;
+}
+/* button/link */
+.watch{
+    background: #DD0000;
+     border-radius: 5px; 
+     padding: 16px 25px;
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     font-weight: 400;
+    
+     
+     
+}
+/* font awsome  */
+.fa-greater-than{
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* image */
+
+.main-header img{
+    height: 619px;
+width: 585px;
+margin-top: 45px;
+ 
+
+}
+
+ 
