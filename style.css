@@ -9,6 +9,7 @@ font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Ubuntu', sans-serif;
  
 
+
  
 
 }
@@ -17,10 +18,11 @@ font-family: 'Ubuntu', sans-serif;
  background-color: #161616;
  display: flex;
  margin-top: 40px;
- margin-left: 140px;
+ margin-left: 110px;
  margin-right: 139px;
- height: 666px;
-width: 1321px;
+ margin-bottom: 130px;
+ height: 646px;
+width: 1320px;
 border-radius: 30px;
  
 
@@ -76,9 +78,167 @@ margin-bottom: 111px;
 .main-header img{
     height: 619px;
 width: 585px;
-margin-top: 45px;
+margin-top: 25px;
  
 
 }
+
+
+
+/*----------------
+ buttons 
+ -----------------*/
+ 
+
+.buttons{
+        background-color: black;  
+    width: 300px;
+   height: 312px;
+   border-radius: 10px;
+     
+ }
+ .btn-div{
+display: flex;
+flex-direction: column;
+
+
+ }
+ 
+ .button{
+   width: 225px;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: 900;
+     margin-top: 30px;
+    margin-left: 29px;
+     background-color:white;
+   padding: 20px 7px;
+   border-radius: 10px;
+   
+    
+    
+ }
+ .button.highlight{
+    text-align: center;
+ }
+ .button.special{
+    background-color: #DD0000;
+    text-align: center;
+ }
+
+  
+  /*------------------
+  button and blox flexible 
+  =-----------------------*/
+  .flexible{
+    display: flex;
+    margin-left: 110px;
+  }
+
+
+  /*---------------------
+  blogs -
+  --------------------*/
+ .all-blogs{
+  margin-left: 30px;
+  
+ }
+.blogs{
+  width: 1025px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 27px;
+  
+}
+ .blog{
+  height: 362px;
+width: 312px;
+box-shadow: 0px 0px 6px rgba(128, 128, 128, 0.367);
+border-radius: 9px;
+
+
+ }
+ .blog img{
+  height: 175px;
+  width: 312px;
+  
+  
+}
+ .blog-info{
+  margin-top: 20px;
+ }
+
+ .blog .blog-info a{
+  text-decoration: none;
+
+font-size: 18px;
+color: black;
+font-weight: 500;
+margin-left: 18px;
+box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.386);
+padding: 4px 13px;
+border: 1px solid black;
+border-radius: 4px;
+margin-bottom: 15px;
+
+ }
+ .blog .blog-info h2{
+  color: rgba(0, 0, 0, 0.863);
+  font-size:19px ;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 20px;
+ }
+ .blog .blog-info span{
+  margin-left: 20px; 
+  margin-right: 30px;
+  color: rgba(0, 0, 0, 0.701);
+  margin-bottom: 20px;
+ }
+ .blog .blog-info i{
+  margin-right: 8px;
+  color: black;
+ }
+
+ /* footer section start */
+ .footer-sec{ 
+  overflow-x: hidden;
+ height: 444px;
+width: 1510px;
+background-color: black;
+margin-top: 130px;
+ }
+
+   .last-part{
+  text-align: center;
+  margin-top: 130px;  
+  color: white;
+ 
+ }  
+ .last-part h1{
+  margin-bottom: 80px;
+  font-size: 40px
+ }
+ .last-part hr{
+  width:1300px ;
+  border: 0.5px solid rgba(128, 128, 128, 0.314);
+   margin-bottom: 50px;
+  
+ }
+ .last-part .row{
+ justify-content: center;
+ justify-content: space-evenly;
+ margin-left: 50px;
+  display: flex;
+  width: 70%;
+  margin-left: 201px;
+  color: #B9B9B9;
+  font-size: 17px;
+  font-weight: 500;
+ }
+ /* .last-part .row p{
+  margin-right: 50px;
+ } */
 
  
